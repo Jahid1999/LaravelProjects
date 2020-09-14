@@ -10,8 +10,8 @@
     <body>
     <div style="text-align: center">
         <div >
-            <h2>Welcome To About Page </h2>
-            <p> This is about page of My App</p>
+            <h2>Welcome To My App </h2>
+            <p> This is my Laravel app for testing routes </p>
         </div>
 
         <div class="links">

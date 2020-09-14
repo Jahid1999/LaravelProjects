@@ -10,8 +10,14 @@
     <body>
     <div style="text-align: center">
         <div >
-            <h2>Welcome To About Page </h2>
-            <p> This is about page of My App</p>
+            <h2>Services </h2>
+            <p> This is the list of services that My App provides:
+                <ul>
+                    <li> Android App Development </li>
+                    <li> iOS App Development </li>
+                    <li> Web Development </li>
+                </ul>
+             </p>
         </div>
 
         <div class="links">
