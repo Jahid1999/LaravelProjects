@@ -4,13 +4,13 @@
 
     <div style="text-align: center">
         <div >
-            <h2>Services </h2>
+            <h2>{{$title}} </h2>
             <p> This is the list of services that My App provides:
-                <ul>
-                    <li> Android App Development </li>
-                    <li> iOS App Development </li>
-                    <li> Web Development </li>
-                </ul>
+                @if(count($services) > 0)
+                    @foreach ($services as $service)
+                        <li> {{$service}}</li>
+                    @endforeach
+                @endif
              </p>
         </div>
 
