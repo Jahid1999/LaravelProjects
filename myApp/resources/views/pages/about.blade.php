@@ -1,13 +1,6 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>My App</title>
-    </head>
-    <body>
+@section ('content')
     <div style="text-align: center">
         <div >
             <h2>Welcome To About Page </h2>
@@ -19,5 +12,4 @@
             <a href="https://github.com/Jahid1999">GitHub</a>
         </div>
     </div>
-    </body>
-</html>
+@endsection
